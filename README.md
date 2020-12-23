@@ -8,4 +8,8 @@
 
 
 <h2>Process of Creation</h2>
-Started by creating the basic structure for the 3 requested html pages. Added link for Bootstrap CDN and bootstrap JS script.
+<ul>
+<li>Started by creating the basic structure for the 3 requested html pages.</li>
+<li>Added link for Bootstrap CDN and bootstrap JS script.</li> 
+<li>Added code for navigation bar to each page.</li>
+</ul>
