@@ -13,6 +13,6 @@
 <li>Added link for Bootstrap CDN and bootstrap JS script.</li> 
 <li>Added code for navigation bar to each page.</li>
 <li>Created a style css sheet.</li>
-<li>Added a template to contact page</li>
-
+<li>Added a template to contact page.</li>
+<li>Removed parts of contact form template that were unnecessary.</li>
 </ul>
