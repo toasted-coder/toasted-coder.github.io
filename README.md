@@ -15,4 +15,5 @@
 <li>Created a style css sheet.</li>
 <li>Added a template to contact page.</li>
 <li>Removed parts of contact form template that were unnecessary.</li>
+<li>Added images to assets folder for webpage background and portfolio usage.</li>
 </ul>
