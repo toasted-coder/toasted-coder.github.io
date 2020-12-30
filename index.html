@@ -1,80 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-  <link rel="stylesheet" type="text/css" href="css/reset.css">
-  <!--Bootstrap link-->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous"> 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>    
-    
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="stylesheet" type="text/css" href="/style.css">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<!--Bootstrap link-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
+	<!--Contact page Bootstrap links-->
+	<link rel="icon" type="image/png" href="ContactFrom_v2/images/icons/favicon.ico"/>
+	<link rel="stylesheet" type="text/css" href="ContactFrom_v2/vendor/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="ContactFrom_v2/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="ContactFrom_v2/vendor/animate/animate.css">
+	<link rel="stylesheet" type="text/css" href="ContactFrom_v2/vendor/css-hamburgers/hamburgers.min.css">
+	<link rel="stylesheet" type="text/css" href="ContactFrom_v2/vendor/select2/select2.min.css">
+	<link rel="stylesheet" type="text/css" href="ContactFrom_v2/css/util.css">
+	<link rel="stylesheet" type="text/css" href="ContactFrom_v2/css/main.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 
-  <title>Home Page</title>
+	<title>Home Page</title>
 </head>
 
 
 
 <body>
-  <!--Navbar-->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="./index.html"><strong>CH</strong></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./contact.html">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <br>
+	<!--Navbar-->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<div class="container-fluid">
+		  <a class="navbar-brand" href="./index.html"><strong>CH</strong></a>
+		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+			  <li class="nav-item">
+				<a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="./portfolio.html">Portfolio</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="./contact.html">Contact</a>
+			  </li>
+			</ul>
+		  </div>
+		</div>
+	  </nav>
+	
 
-  <main class="background">
+	
+	<div class="bg-contact2" style="background-image: url('ContactFrom_v2/images/bookshelves.jpg');">
+		<div class="container-contact2">
+            <!--"Main" container-->
+			<div class="wrap-contact2">
+                <section class="containt-xs justify-content-center bg-warning">
+                    <div class="row m-1">
+                        <header>
+                          <h1>About Me</h1>
+            
+                        </header>
+                    </div>
+            
+                    <!-- Personal Bio and Pic-->
+                    <div class="row m-1">
+                        <p> <img src="./assets/4julyme.jpg" class="img-thumbnail" alt="Chris Holmes at 4th of July BBQ">
+                            <br>
+                            <strong>Hi my name is Christman Holmes, I am an aspiring full-stack web developer. Currently enrolled in a 6 month web dev bootcamp program through UC Davis. Before signing up for this class I worked as a general laborer and traffic technician in the road construction industry. I grew up around computers, my dad ran a PC repair shop when I was younger, so I've always been interested in doing some type of work with them.</strong>
+                            <br><br>
+                            <strong>Some hobbies of mine are playing games, taking photos, and visting friends as often as I can. Which admittedly isn't quite that often anymore with this whole pandemic going on. Recently I have taken an interest in piloting drones, once I have established myself in the web dev workforce I will be looking into getting a license to fly drones for power companies such as PG&E.</strong>
+                        </p>
+                    </div>
+                </section>
+                <br>
+                <footer>
+                    <p>&copy; Christman Holmes</p>
+                  </footer>
+			</div>
+		</div>
+	</div>
 
-    <!-- Main container-->
-    <section class="containt-xs justify-content-center bg-warning">
-        <div class="row m-1">
-            <header>
-              <h1>About Me</h1>
 
-            </header>
-        </div>
+<!--===============================================================================================-->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+	<script src="vendor/select2/select2.min.js"></script>
+	<script src="js/main.js"></script>
 
-        <!-- Personal Bio and Pic-->
-        <div class="row m-1">
-            <p class="pull-left"> <img src="./assets/4julyme.jpg" class="img-thumbnail shadow" alt="Chris Holmes at 4th of July BBQ">
-                Hi my name is Christman Holmes, I am an aspiring full-stack web developer. Currently enrolled in a 6 month web dev bootcamp program through UC Davis. Before signing up for this class I worked as a general laborer and traffic technician in the road construction industry. I grew up around computers, my dad ran a PC repair shop when I was younger, so I've always been interested in doing some type of work with them.
-                <br><br>
-                Some hobbies of mine are playing games, taking photos, and visting friends as often as I can. Which admittedly isn't quite that often anymore with this whole pandemic going on. Recently I have taken an interest in piloting drones, once I have established myself in the web dev workforce I will be looking into getting a license to fly drones for power companies such as PG&E.
-            </p>
-        </div>
-    </section>
-</main>
-<br><br>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
 
-<footer>
-  <p>&copy; Christman Holmes</p>
-</footer>
-     
+	  gtag('config', 'UA-23581568-13');
+	</script>
+
+
 </body>
-
-
-
-
 </html>
