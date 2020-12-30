@@ -2,32 +2,6 @@ body {
   background-color: rgb(129, 60, 3);
 }
 
-/* Settings for the Adam Horn brand on the navbar */
-.navbar-brand {
-  background-color: #9e4d01;
-  font-family: 'Times New Roman', Times, serif;
-  font-weight: bold;
-  margin-left: 15px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-
-/* Additional settings and placement for navbar toggler */
-.navbar-toggler {
-  border: solid 2px #6c757d;
-  margin-right: 15px;
-}
-
-/*  */
-.nav-item {
-  margin-left: 15px;
-  font-size: larger;
-}
-
-/* Setting for indicating current page in the navbar */
-.text-dark {
-  font-weight: bolder;
-}
 
 /* Header settings */
 header {
@@ -43,6 +17,7 @@ header {
 .container-xs {
   max-width: 220px;
   margin: auto;
+  color: white
 }
 
 /* Settings for thumbnail in About Me section */
@@ -55,6 +30,11 @@ header {
   float: right;
 }
 
+/*p {
+  font-size: x-large;
+}*/
+
+
 /* Settings for pictures on portfolio page */
 .img {
   margin-bottom: 20px;
@@ -65,7 +45,7 @@ header {
 
 /* Used to pad the rows inside the container */
 .row {
-  padding: 15px;
+  padding: 20px;
 }
 
 
@@ -84,7 +64,7 @@ footer {
     padding-top: 10px;
     width: 100%;
     border-color: rgb(13, 37, 36);
-    color: darkgrey;
+    color: white;
     text-align: center;
     font-size: smaller;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
