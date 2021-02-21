@@ -33,6 +33,7 @@ header {
 
 /* Settings for pictures on portfolio page */
 .img {
+  padding: 20px;
   margin-bottom: 20px;
   max-height: 350px;
   max-width: 350px;
